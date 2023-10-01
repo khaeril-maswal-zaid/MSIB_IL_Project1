@@ -1,0 +1,288 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif; /* Ubah font keseluruhan ke Roboto */
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: #fff; /* Latar belakang putih */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3); /* Bayangan di bawah navbar */
+  padding: 10px; /* Tambahkan padding ke atas dan bawah serta kiri dan kanan */
+  color: #333; /* Warna teks */
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Style the navigation links */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 10px 50px;
+}
+
+/* Style the main title */
+.navbar .logo {
+  text-decoration: none;
+  color: #000; /* Warna teks hitam */
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 5px;
+  padding: 5px 12px;
+  transition: color 0.3s; /* Animasi perubahan warna */
+}
+
+/* Hover effect on the main title */
+.navbar .logo:hover {
+  color: #007bff; /* Warna teks biru saat dihover */
+  text-decoration: none;
+}
+
+/* Style the navigation links */
+.navbar ul li a {
+  text-decoration: none;
+  color: #0f0592; /* Warna tautan biru */
+  font-weight: bold; /* Mengurangi ketebalan font */
+  padding: 3px 10px;
+  border: none; /* Hapus border */
+  border-radius: 5px; /* Tambahkan sudut yang melengkung */
+  transition: background-color 0.3s, color 0.3s; /* Animasi perubahan warna */
+}
+
+/* Hover effect on links */
+.navbar ul li a:hover {
+  background-color: #007bff; /* Warna latar belakang saat dihover */
+  color: #fff; /* Warna teks putih saat dihover */
+  text-decoration: none;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Reset default margin and padding */
+
+/* Style the home section */
+.home {
+  /* Latar belakang abu-abu */
+  /* background-color: #f9f9f9;  */
+  margin: 70px 0px;
+  padding: 70px;
+  font-size: 18px;
+}
+
+.home h1.title {
+  font-size: 4em;
+  padding-bottom: 25px;
+}
+
+.home p {
+  margin: 10px 0; /* Berikan jarak antara paragraf */
+}
+
+/* Style the image */
+.picture {
+  display: block; /* Buat gambar menjadi blok agar bisa mengatur margin secara vertikal */
+  margin: 20px auto; /* Pusatkan gambar secara horizontal dan beri margin atas/bawah */
+  max-width: 100%; /* Agar gambar tidak melebihi lebar kontainer */
+  border-radius: 10px; /* Sudut yang melengkung */
+  float: right;
+}
+
+/* --------------------------------------------------------------------- */
+/* Reset default margin and padding */
+
+/* Style the about section */
+#about {
+  background-color: #aee6e6; /* Latar belakang abu-abu */
+  padding: 50px;
+  text-align: center;
+  margin: 250px 0px 70px 0px;
+}
+.about {
+  margin: 0px 50px;
+}
+
+.about-desc p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+/* Style the row of columns */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* Style each column */
+.column {
+  flex: 1; /* Agar kolom memiliki lebar yang sama */
+  background-color: #fff; /* Latar belakang putih */
+  padding: 20px;
+  border: 1px solid #ddd; /* Garis tepi */
+  border-radius: 10px; /* Sudut yang melengkung */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+  margin: 0 10px; /* Margin antara kolom */
+  transition: transform 0.3s ease-in-out; /* Animasi transisi */
+}
+
+.column:hover {
+  transform: translateY(-5px); /* Angkat kolom saat dihover */
+}
+
+.column h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.column p {
+  font-size: 16px;
+}
+
+/* ---------------------------------------------------------------------- */
+
+/* Style the skill section */
+#skill {
+  background-color: #f9f9f9; /* Latar belakang abu-abu */
+  padding: 50px;
+  text-align: center;
+}
+
+.skill-desc p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+/* Style the box container */
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* Style each box */
+.box-1 {
+  flex: 1; /* Agar kotak memiliki lebar yang sama */
+  background-color: #fff; /* Latar belakang putih */
+  padding: 20px;
+  border: 1px solid #ddd; /* Garis tepi */
+  border-radius: 10px; /* Sudut yang melengkung */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+  margin: 0 10px; /* Margin antara kotak */
+  transition: transform 0.3s ease-in-out; /* Animasi transisi */
+}
+
+.box-1:hover {
+  transform: translateY(-5px); /* Angkat kotak saat dihover */
+}
+
+.box-1 span {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.box-1 p {
+  font-size: 16px;
+}
+
+/* ---------------------------------------------------------------- */
+/* Reset default margin and padding */
+
+/* Style the contact section */
+#contact {
+  background-color: #f9f9f9; /* Latar belakang abu-abu */
+  padding: 50px;
+  text-align: center;
+}
+
+.contact-desc p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+/* Style the form */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff; /* Warna latar belakang tombol */
+  color: #fff; /* Warna teks tombol */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+}
+
+/* ---------------------------------------------------------------------------- */
+/* Style the footer section */
+footer {
+  background-color: #333; /* Latar belakang hitam */
+  color: #fff; /* Warna teks putih */
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Style the social icons */
+.social-icons a {
+  color: #fff; /* Warna ikon putih */
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Warna ikon saat dihover */
+}
